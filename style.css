@@ -85,7 +85,7 @@ main {
   opacity: 0.6;
 }
 
-@media (max-width: 400px) {
+@media (max-width: 425px) {
   .texto {
     order: 0;
     padding: auto;
@@ -170,11 +170,14 @@ main {
     order: -1;
     background: hsl(277, 100%, 30%);
     border-radius: 12px 12px 0px 0;
+    align-items: center;
+    justify-content: center;
   }
 
   .image img {
-    width: 334px;
     border-radius: 12px 12px 0px 0;
     opacity: 0.6;
+    flex-shrink: 0;
+    width: 411px;
   }
 }
