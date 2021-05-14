@@ -85,7 +85,7 @@ main {
   opacity: 0.6;
 }
 
-@media (max-width: 375px) {
+@media (max-width: 400px) {
   .texto {
     order: 0;
     padding: auto;
